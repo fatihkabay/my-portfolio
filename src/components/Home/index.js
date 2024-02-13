@@ -1,5 +1,6 @@
 import LogoTitle from "../../assets/images/logo-s.png";
 import "./index.scss";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -13,6 +14,9 @@ const Home = () => {
           web developer
         </h1>
         <h2>Full Stack Developer / Javascript Expert / Studying In High School</h2>
+        <Link to="/contact" className="flat-button">
+            CONTACT ME
+          </Link>
       </div>
     </div>
   )
